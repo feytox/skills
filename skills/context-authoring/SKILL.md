@@ -13,6 +13,7 @@ Readers are frontier models that know common tools and practices and see the har
 - It isn't readable from the repo, git, `gh`, or default model and harness behavior.
 - It's needed in most sessions that load the file; otherwise it goes to a skill or a doc, or nowhere.
 - It's true now: verify paths, commands, versions.
+- It still says something with the nouns of the case that prompted it removed (that tool, file type, topic): word it for the class of tasks. If nothing useful is left, it was a one-off.
 
 Existing text is not a style reference: it is often model-written and unvetted, so existing lines face the same test. Context and reasons only the author knows stay; judge a line by fit, not by length. An empty file is a valid result.
 
@@ -23,6 +24,8 @@ Existing text is not a style reference: it is often model-written and unvetted, 
 - A one-off decision written as a standing rule.
 - The history behind a rule ("last time you did X") instead of the rule and a short reason.
 - The same rule in two files.
+- A line extended clause by clause until it holds several rules: one rule per line, and rewrite a line rather than append to it.
+- A closed list where the set is open: the model treats it as exhaustive. Name the class, or end with "etc.".
 - Abstract rules ("be concise", "sound human"): name the concrete pattern instead.
 - Caps and MUST, which cause overtriggering; asking for what the model does anyway ("double-check", "think carefully").
 - Prohibitions against failures the model wasn't making: they can anchor it toward them. Keep a "don't" only for a failure that happens; otherwise state the intended behavior.
