@@ -3,7 +3,7 @@
 set -eu
 cd "$(dirname "$0")"
 rm -rf skills
-for s in context-authoring handoff handoff-resume reflect solo-task pair-task; do
+for s in context-authoring handoff handoff-resume reflect solo-task pair-task dictated; do
   mkdir -p "skills/$s"
   printf %s "{{ template \"skills/$s/SKILL.md\" (dict \"agent\" \"public\") }}" | chezmoi execute-template > "skills/$s/SKILL.md"
 done
